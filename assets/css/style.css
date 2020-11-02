@@ -1,0 +1,11 @@
+header {
+  background-color: #343A40;
+  color: white;
+  text-align: center;
+}
+
+.input-group-text {
+  border-color: #8FC4FD !important;
+  border-width: 3px !important;
+  color: white;
+}
