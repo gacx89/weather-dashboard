@@ -4,8 +4,11 @@ header {
   text-align: center;
 }
 
-.input-group-text {
-  border-color: #8FC4FD !important;
-  border-width: 3px !important;
+.btn {
+ 
   color: white;
+}
+
+label {
+  font-weight: bold;
 }
