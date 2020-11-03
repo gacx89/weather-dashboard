@@ -15,7 +15,7 @@
 </head>
 <body>
   <header>
-    <h1>Weather Dashboard</h1>
+    <h1 class="m-0">Weather Dashboard</h1>
   </header>
 
   <main class="row min-vh-100 no-gutters">
@@ -24,20 +24,15 @@
       <div class="input-group">
         <input type="text" class="form-control" id="city">
         <div class="input-group-append">
-          <button type="submit" class="btn bg-primary"><span class="oi oi-magnifying-glass"></span></button>
+          <button type="submit" class="btn bg-primary" id="searchBtn"><span class="oi oi-magnifying-glass"></span></button>
         </div>
       </div>
       <ul class="list-group mt-3">
-        <li class="list-group-item">Cras justo odio</li>
-        <li class="list-group-item">Dapibus ac facilisis in</li>
-        <li class="list-group-item">Morbi leo risus</li>
-        <li class="list-group-item">Porta ac consectetur ac</li>
-        <li class="list-group-item">Vestibulum at eros</li>
       </ul>
     </div>
 
     <div class="col-9">
-      <div class="row h-50">
+      <div class="row h-50 border m-0 p-0 mt-2">
         <div class="col-12">
           <h2 id="city-name"></h2>
           <p id="temperature"></p>
@@ -47,17 +42,62 @@
         </div>
       </div>
 
-      <div class="row h-50">
+      <div class="row h-50 m-0 p-0 mt-2">
         <div class="col-12">
-          <h1>TEST2</h1>
+          <h2>5-Day Forecast:</h1>
+
+            <div class="d-flex justify-content-between">
+              <div class="card bg-primary h-100" id="day1">
+                <div class="card-body">
+                  <h3 class="card-title"></h3>
+                  <img class=".img-fluid">
+                  <p class="card-text temp"></p>
+                  <p class="card-text humid"></p>
+                </div>
+              </div>
+            
+              <div class="card bg-primary" id="day2">
+                <div class="card-body">
+                  <h3 class="card-title"></h3>
+                  <img class=".img-fluid">
+                  <p class="card-text temp"></p>
+                  <p class="card-text humid"></p>
+                </div>
+              </div>
+            
+              <div class="card bg-primary" id="day3">
+                <div class="card-body">
+                  <h3 class="card-title"></h3>
+                  <img class=".img-fluid">
+                  <p class="card-text temp"></p>
+                  <p class="card-text humid"></p>
+                </div>
+              </div>
+            
+              <div class="card bg-primary" id="day4">
+                <div class="card-body">
+                  <h3 class="card-title"></h3>
+                  <img class=".img-fluid">
+                  <p class="card-text temp"></p>
+                  <p class="card-text humid"></p>
+                </div>
+              </div>
+            
+              <div class="card bg-primary" id="day5">
+                <div class="card-body">
+                  <h3 class="card-title"></h3>
+                  <img class=".img-fluid">
+                  <p class="card-text temp"></p>
+                  <p class="card-text humid"></p>
+                </div>
+              </div>
+            </div>
         </div>
+
+        
+
       </div>
-
     </div>
-
-
-    </div>
-
   </main>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

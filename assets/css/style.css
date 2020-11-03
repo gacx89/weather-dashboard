@@ -5,10 +5,14 @@ header {
 }
 
 .btn {
- 
   color: white;
 }
 
 label {
   font-weight: bold;
+}
+
+.card {
+  color: white;
+  width: 15%;
 }
