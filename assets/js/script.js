@@ -28,7 +28,7 @@ var displayWeatherInfo = function(city) {
         var windSpeed = "Wind Speed: " + weatherData.wind.speed + " MPH";
         $("#wind-speed").text(windSpeed);
 
-        var apiUrlUv = "http://api.openweathermap.org/data/2.5/uvi?lat=" + weatherData.coord.lat + "&lon=" + weatherData.coord.lon + "&appid=ce52888f70e5c34a7d0254ed0c8cfc79";
+        var apiUrlUv = "https://api.openweathermap.org/data/2.5/uvi?lat=" + weatherData.coord.lat + "&lon=" + weatherData.coord.lon + "&appid=ce52888f70e5c34a7d0254ed0c8cfc79";
 
         var apiUrl2 = "https://api.openweathermap.org/data/2.5/onecall?lat=" + lat + "&lon=" + lon + "&exclude=current,minutely,hourly,alerts&units=imperial&appid=ce52888f70e5c34a7d0254ed0c8cfc79";
 
